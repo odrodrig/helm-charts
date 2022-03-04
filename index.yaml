@@ -9,6 +9,6 @@ entries:
     name: helm-guestbook
     type: application
     urls:
-    - https://odrodrig.github.io/helm-chart/helm-guestbook-0.1.0.tgz
+    - https://odrodrig.github.io/helm-charts/helm-guestbook-0.1.0.tgz
     version: 0.1.0
 generated: "2022-03-04T15:07:21.050585-06:00"
