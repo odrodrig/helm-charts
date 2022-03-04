@@ -1,0 +1,12 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: helm-guestbook
+spec:
+  to:
+    kind: Service
+    name: helm-guestbook
+    weight: 100
+  port:
+    targetPort: http
+  wildcardPolicy: None
