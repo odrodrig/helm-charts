@@ -1,11 +1,11 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: helm-guestbook
+  name: {{ template "helm-guestbook.fullname" . }}
 spec:
   to:
     kind: Service
-    name: helm-guestbook
+    name: {{ template "helm-guestbook.fullname" . }}
     weight: 100
   port:
     targetPort: http
