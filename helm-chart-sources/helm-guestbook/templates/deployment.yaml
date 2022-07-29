@@ -19,7 +19,8 @@ spec:
       labels:
         app: {{ template "helm-guestbook.name" . }}
         release: {{ .Release.Name }}
-        identity: {{ (lookup "v1" "ConfigMap" "default" "sample").data.identity }}
+        identity: {{ .Values.identity }}
+        # identity: {{ (lookup "v1" "ConfigMap" "default" "sample").data.identity }}
     spec:
       containers:
         - name: {{ .Chart.Name }}
