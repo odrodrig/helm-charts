@@ -3,9 +3,9 @@ entries:
   helm-guestbook:
   - apiVersion: v2
     appVersion: "1.1"
-    created: "2022-07-28T19:35:35.492621-05:00"
+    created: "2022-07-28T19:38:03.10199-05:00"
     description: A Helm chart for Kubernetes
-    digest: 933f33910918854f724e583b7cd4c5baab3dc25678c88307b8ce73924809ace8
+    digest: cf40a2ee6c17a7d6fe134258f4fa018c195897964c2e2871551bc3da137e7952
     name: helm-guestbook
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: "1.1"
-    created: "2022-07-28T19:35:35.492259-05:00"
+    created: "2022-07-28T19:38:03.101647-05:00"
     description: A Helm chart for Kubernetes
     digest: 4eb4af57e49228747fc628dffb88e920b0159a78beb409b8ae9be26e0f4670ae
     name: helm-guestbook
@@ -23,7 +23,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: "1.1"
-    created: "2022-07-28T19:35:35.491894-05:00"
+    created: "2022-07-28T19:38:03.101303-05:00"
     description: A Helm chart for Kubernetes
     digest: b1d35c4c7b30a534fd3effbca1950b663888f9bdfe4752765f5b234996188f65
     name: helm-guestbook
@@ -33,7 +33,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "1.1"
-    created: "2022-07-28T19:35:35.491542-05:00"
+    created: "2022-07-28T19:38:03.100953-05:00"
     description: A Helm chart for Kubernetes
     digest: da32e94cab1c2b27317e277b5be8df8888fe189d0d9e07e4705233047c320ed1
     name: helm-guestbook
@@ -41,4 +41,4 @@ entries:
     urls:
     - https://odrodrig.github.io/helm-charts/helm-guestbook-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-28T19:35:35.491037-05:00"
+generated: "2022-07-28T19:38:03.100461-05:00"
